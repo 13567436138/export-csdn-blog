@@ -60,7 +60,7 @@ public class CSDNCrawler {
 	}
 	
 	public static void savePages(){
-		for(int i=0;i<1;i++){
+		for(int i=0;i<articleUrls.size();i++){
 			String articleUrl=articleUrls.get(i);
 			BufferedInputStream bis=null;
 			BufferedOutputStream bos =null;
